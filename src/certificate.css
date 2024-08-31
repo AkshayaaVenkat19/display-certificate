@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+#cert-container {
+  padding: 0;
+  border: 1px solid;
+}
+
+#cert-header {
+  background-image: url("/public/images/header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25vh;
+}
+
+.header-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 97%;
+  margin: 1rem 1rem 0 1rem;
+  border: 2px solid gold;
+  z-index: 99;
+}
+
+#cert-body {
+  margin: 1rem 1rem 0 1rem;
+}
+
+#cert-body #body-grid {
+  text-align: center;
+  width: 100%;
+}
+
+#body-title .horizontal-break {
+  border-bottom: 1px solid;
+  width: 23vw;
+  margin: 0 auto;
+}
+
+#name-text {
+  font-size: 3.5rem;
+  font-family: auto;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+#cert-body #subTitle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+}
+
+#body-description {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: cursive;
+}
+
+#cert-sign {
+  margin: 4rem 6rem;
+  font-family: cursive;
+  margin-bottom: 1.5rem;
+}
+
+#cert-sign #sign1 {
+  text-align: left;
+}
+#cert-sign #sign2 {
+  margin-left: auto;
+  text-align: left;
+}
+
+.designation {
+  font-size: 0.7rem;
+}
+
+#cert-footer {
+  background-image: url("/public/images/footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10vh;
+}
+
+#cert-footer .footer-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: 0 1rem 1rem 1rem;
+  border: 2px solid gold;
+  border-top: none;
+}
+
+@media only screen and (max-width: 560px) {
+  #cert-sign {
+    margin: 2rem;
+  }
+}
+
+@media only screen and (min-width: 730px) and (max-width: 1034px) {
+  #cert-header {
+    height: 35vh;
+  }
+} 
